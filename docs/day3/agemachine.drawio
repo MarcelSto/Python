@@ -1,0 +1,68 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="bWNdJPbu23wH_QDStmp0">
+    <mxGraphModel dx="1678" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-1" target="12avWWMlyEmW-HAkE2Lj-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="150" />
+              <mxPoint x="98" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="68" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-2" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="68" y="710" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-3" target="12avWWMlyEmW-HAkE2Lj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-3" value="i&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nput&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-4" target="12avWWMlyEmW-HAkE2Lj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-4" value="print:wie alt bist du" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="42" y="150" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-8" target="12avWWMlyEmW-HAkE2Lj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-13" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-8" target="12avWWMlyEmW-HAkE2Lj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-8" value="Over 50" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-10" target="12avWWMlyEmW-HAkE2Lj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98" y="665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="98" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-10" value="Du bist Alt geworden" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="38" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12avWWMlyEmW-HAkE2Lj-12" target="12avWWMlyEmW-HAkE2Lj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="400" />
+              <mxPoint x="455" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12avWWMlyEmW-HAkE2Lj-12" value="Aha. eines Tages wirst du auch Alt!" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
