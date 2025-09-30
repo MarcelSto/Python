@@ -8,7 +8,7 @@ number2 = float(input("Enter the second number: "))
 result = number1 + number2
 
 #Output result
-print("The result is:", result)
+print("The result is:", int(result))
 
 #END
 
