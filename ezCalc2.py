@@ -1,6 +1,18 @@
 #Start - Easy Calculator 2.0
 
 #Function
+def again(): 
+        answer = input("Next Operation? (yes/no): ")         #ask user if he want to do another operation
+        if answer == "yes":
+         calc() 
+        elif answer == "no":                             
+            return "Goodbye!"
+        else:                       #catch all for invalid input
+            print("Invalid Input, please try again")
+            again()
+
+
+
 def calc():
     print("Welcome to Easy Calculator 2.0")
     operation = input("Enter your Operation(e.g. 1+1): ")  #define varable input | define variable input as string (cant convert 1+1 to float) 
@@ -9,7 +21,7 @@ def calc():
 
     if "+" in operation:
         numpart = operation.split("+") #split the input at the operator | variable.split() function splits a string into a list where each word is a list item result[0] + result[1]
-        result = float(numpart[0]) + float(numpart[1])  #print the result of the operation | convert the string to float
+        result = float(numpart[0]) + float(numpart[1])  #set variable "result" to numpart[0]+numpart[1] | convert the string to float
     elif "-" in operation:
         numpart = operation.split("-")
         result = float(numpart[0]) - float(numpart[1])  
@@ -23,8 +35,6 @@ def calc():
         else:
              print("Error: Division by 0")     
     
-    else:
-        return "Error: Invalid operation"
     
     if result is not None:
          if result.is_integer():                        #check if the result is an integer
@@ -32,12 +42,10 @@ def calc():
     
     print(f"The result is: {result}")                  #print the result
     
-    again = input("Next Operation? (yes/no): ")         #ask user if he want to do another operation
-    if again == "yes":
-         calc() 
-    elif again == "no":                             
-            return "Goodbye!"
+    again()
 
+
+    
 #Operation result
 calc()
 
