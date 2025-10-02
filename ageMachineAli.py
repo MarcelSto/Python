@@ -11,7 +11,7 @@ def ageMachine(age: int)->None:
         print("You will get old 2!")
 
 #Call Function
-ageMachine(60)
+#ageMachine(60)
 
 
 """
@@ -30,5 +30,6 @@ print("How old r u?")
 age_frome_user = input()                #input function is alsways a string
 age_frome_user = int(age_frome_user)   
 
+ageMachine(age_frome_user)
 
 #End
