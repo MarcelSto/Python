@@ -26,4 +26,9 @@ result = addTwoNumbers(5, 6)
 print(f"Result is:{result}")
 
 
+print("How old r u?")
+age_frome_user = input()                #input function is alsways a string
+age_frome_user = int(age_frome_user)   
+
+
 #End
