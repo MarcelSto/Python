@@ -1,6 +1,6 @@
 #Start - Easy Calculator 2.0
 
-#Function
+#Function Next Operation
 def again(): 
         answer = input("Next Operation? (yes/no): ")         #ask user if he want to do another operation
         if answer == "yes":
@@ -12,7 +12,7 @@ def again():
             again()
 
 
-
+#Function Calculator
 def calc():
     print("Welcome to Easy Calculator 2.0")
     operation = input("Enter your Operation(e.g. 1+1): ")  #define varable input | define variable input as string (cant convert 1+1 to float) 
