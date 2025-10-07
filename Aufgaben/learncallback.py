@@ -1,7 +1,8 @@
 #Start - Lerne Callback richtig anzuwenden in Python
 '''
 Eine Callback-Funktion in Python (und in vielen anderen Programmiersprachen) ist eine Funktion,
-die als Argument an eine andere Funktion übergeben wird, um später aufgerufen (zurückgerufen) zu werden – daher der Name „Callback“.
+die als Argument an eine andere Funktion übergeben wird, um später aufgerufen (zurückgerufen) zu werden - daher der Name „Callback“.
+Das Prinzip basiert auf höherwertigen Funktionen: In Python können Funktionen wie Variablen behandelt werden - sie können übergeben, gespeichert und zurückgegeben werden.
 '''
 
 def sag_hallo():                    #Definiere die Funktion die als Callback dienen soll
