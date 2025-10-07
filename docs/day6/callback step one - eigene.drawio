@@ -1,0 +1,168 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="C8IqWjbH8J95_lfmp775">
+    <mxGraphModel dx="3679" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-1" target="64MG1I9TAAlRzAuUQtk9-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-2" target="64MG1I9TAAlRzAuUQtk9-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-2" value="Kunde bestellung" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-3" target="64MG1I9TAAlRzAuUQtk9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-3" value="kellner Nimmt bestellung" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFF33;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-4" target="64MG1I9TAAlRzAuUQtk9-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-4" value="kellner zur Küche" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#66FF66;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-5" target="64MG1I9TAAlRzAuUQtk9-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-5" target="64MG1I9TAAlRzAuUQtk9-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-5" value="Kellner bringt Essen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-6" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-7" value="return Essen" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FF9999;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="1350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-15" target="64MG1I9TAAlRzAuUQtk9-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-15" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-17" value="Kunde bestellung&lt;br&gt;(ruf Kellner)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-24" target="64MG1I9TAAlRzAuUQtk9-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="64MG1I9TAAlRzAuUQtk9-24" target="64MG1I9TAAlRzAuUQtk9-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-24" value="Kellner bringt Essen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-25" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-26" value="return Essen" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FF9999;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-1" target="m4fJ8bkBr_jnECrbx-UB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-2" target="m4fJ8bkBr_jnECrbx-UB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-2" value="Kunde bestellt&lt;br&gt;essen" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-3" target="m4fJ8bkBr_jnECrbx-UB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-3" value="Kellner wird gerufen&lt;br&gt;(callback)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="399" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-4" target="m4fJ8bkBr_jnECrbx-UB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-4" target="m4fJ8bkBr_jnECrbx-UB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-4" value="Kellner bringt Essen&lt;br&gt;zurück" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-5" value="Return Essen" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-6" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-13" target="m4fJ8bkBr_jnECrbx-UB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-13" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="85" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-15" target="m4fJ8bkBr_jnECrbx-UB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-15" value="Kunde bestellt&lt;br&gt;essen" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="960" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-17" target="m4fJ8bkBr_jnECrbx-UB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-17" value="Kellner wird gerufen&lt;br&gt;(callback)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1089" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-20" target="m4fJ8bkBr_jnECrbx-UB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-20" value="Kellner nimmt bestellung&amp;nbsp;&lt;div&gt;entgegen&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-21" value="Return Essen" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-22" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-23" target="m4fJ8bkBr_jnECrbx-UB-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-23" value="Kellner bringt&amp;nbsp;&lt;div&gt;bestellung zur Küche&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1360" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-24" target="m4fJ8bkBr_jnECrbx-UB-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m4fJ8bkBr_jnECrbx-UB-24" target="m4fJ8bkBr_jnECrbx-UB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-24" value="Kellner bringt Essen&lt;br&gt;zum Kunden" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1480" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pseudocode&lt;/h1&gt;&lt;div&gt;Start&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#Callback_Function&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Funktion Kellner_callback(bestellung):&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Kellner: Bestellung erhalten -&quot;, bestellung&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Kellner geht zur Küche mit der Bestellung&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Kellner bringt das Essen zum Kunden&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;return: bestellung + &quot;(fertig zubereitet)&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Funktion kunde_bestellt(callback_function):&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;bestellung = &quot;Pizza&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Kunde: Ich hätte gerne eine&quot;, bestellung&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Callback aufrufen: Kellner übernimmt&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;essen = kellner_callback(bestellung)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Kunde: Mein Essen ist angekommen:&quot;, essen&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Vorgang abgeschlossen&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#Programmstart&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Rufe kunde_bestellt(kellner_callback)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="850" width="420" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-820" y="790" as="sourcePoint" />
+            <mxPoint x="1470" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4fJ8bkBr_jnECrbx-UB-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Pseudocode&lt;/h1&gt;&lt;div&gt;Start&lt;br&gt;&lt;br&gt;#Callback Funktion&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Funktion kellner_callback(bestellung):&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;print &quot;Kellner: Ich bringe die Bestellung:&quot;, bestellung&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return&lt;/span&gt;: bestellung + &quot;zubereitet&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Funktion kunde_bestellt(kellner_callback):&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bestellung = &quot;pizza&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;p&lt;/span&gt;rint &quot;Kunde: Ich hätte gerne eine&quot;, bestellung&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;callback: Kellner wird gerufen&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;essen = kellner_callback(bestellung)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;return: Essen wird übergeben&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;print &quot;Kunde: Mein Essen ist angekommen:&quot;, essen&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;#Programmstart&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Rufe kunde_bestellt(kellner_callback)&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="340" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
