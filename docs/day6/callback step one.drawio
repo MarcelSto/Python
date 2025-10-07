@@ -1,0 +1,78 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="C8IqWjbH8J95_lfmp775">
+    <mxGraphModel dx="2505" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-1" target="64MG1I9TAAlRzAuUQtk9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-2" target="64MG1I9TAAlRzAuUQtk9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-2" value="Kunde bestellung" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-3" target="64MG1I9TAAlRzAuUQtk9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-3" value="kellner Nimmt bestellung" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFF33;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-4" target="64MG1I9TAAlRzAuUQtk9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-4" value="kellner zur Küche" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#66FF66;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-5" target="64MG1I9TAAlRzAuUQtk9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-5" target="64MG1I9TAAlRzAuUQtk9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-5" value="Kellner bringt Essen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="130" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-6" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-7" value="return Essen" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FF9999;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-15" target="64MG1I9TAAlRzAuUQtk9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-15" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-17" value="Kunde bestellung&lt;br&gt;(ruf Kellner)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-24" target="64MG1I9TAAlRzAuUQtk9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64MG1I9TAAlRzAuUQtk9-24" target="64MG1I9TAAlRzAuUQtk9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-24" value="Kellner bringt Essen" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-25" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="64MG1I9TAAlRzAuUQtk9-26" value="return Essen" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FF9999;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

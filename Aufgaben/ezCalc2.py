@@ -17,7 +17,7 @@ def calc():
     print("Welcome to Easy Calculator 2.0")
     operation = input("Enter your Operation(e.g. 1+1): ")  #define varable input | define variable input as string (cant convert 1+1 to float) 
 
-    #result = None                                 #define variable result as None (to avoid errors) 
+    result = None                                 #define variable result as None (to avoid errors) 
 
     if "+" in operation:
         numpart = operation.split("+")                  #split the input at the operator | variable.split() function splits a string into a list where each word is a list item result[0] + result[1]
