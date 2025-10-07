@@ -1,4 +1,8 @@
 #Start - Lerne Callback richtig anzuwenden in Python
+'''
+Eine Callback-Funktion in Python (und in vielen anderen Programmiersprachen) ist eine Funktion,
+die als Argument an eine andere Funktion übergeben wird, um später aufgerufen (zurückgerufen) zu werden – daher der Name „Callback“.
+'''
 
 def sag_hallo():                    #Definiere die Funktion die als Callback dienen soll
     print("Hallo!")                 #was die funktion ausführen soll
@@ -41,5 +45,38 @@ def gross(name):                    #Funktion die einen String in Großbuchstabe
 def main(callback, name):           #Funktion die eine Callback Funktion und einen Namen als Parameter nimmt
     callback(name)                  #Ruft die Callback Funktion mit dem Namen als Argument auf
 
-main(klein, "Hans")                 #Funktion main wird aufgerufen mit der Callback Funktion klein und dem Namen "Hans"
-main(gross, "Hans")                 #Funktion main wird aufgerufen mit der Callback Funktion groß und dem Namen "Hans"
+#main(klein, "Hans")                 #Funktion main wird aufgerufen mit der Callback Funktion klein und dem Namen "Hans"
+#main(gross, "Hans")                 #Funktion main wird aufgerufen mit der Callback Funktion groß und dem Namen "Hans"
+
+'''
+Aufgabe 3 - Schreibe eine Funktion rechne(operation, a, b), die zwei Zahlen und eine Callback Funktion als Parameter nimmt.
+'''
+##Callback definieren
+def addiere(a, b):                  #Funktion die zwei Zahlen addiert
+    print("Resume is:", a + b)
+
+def subtrahiere(a, b):              #Funktion die zwei Zahlen subtrahiert
+    print("Resume is:", a - b)
+
+def multipliziere(a, b):            #Funktion die zwei Zahlen multipliziert
+    print("Resume is:", a * b)
+
+def dividiere(a, b):              #Funktion die zwei Zahlen dividiert
+    if b != 0:
+        print("Resume is:", a / b)
+    else:
+        print("Division durch Null ist nicht erlaubt")
+        return None
+
+##def main function
+def rechne(operation, a, b):        #Funktion die eine Callback Funktion und zwei Zahlen als Parameter nimmt || "operation" ist die Callback Funktion
+    return operation(a, b)          #Ruft die Callback Funktion mit den zwei Zahlen als Argumente auf
+
+
+#Ausführen der Funktion mit verschiedenen Operationen
+
+rechne(addiere, 5, 3)           #Erwartet 8
+rechne(subtrahiere, 5, 3)       #Erwartet 2
+rechne(multipliziere, 5, 3)     #Erwartet 15
+rechne(dividiere, 5, 2)         #Erwartet 2.5
+rechne(dividiere, 5, 0)         #Erwartet Fehlermeldung                        
