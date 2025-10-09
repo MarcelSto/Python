@@ -2,7 +2,7 @@
 
 
 #Variables and Lists
-Alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+Alphabet = [' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 ###Function ask user for Key and return it as int
 def getKey()->int:                              
@@ -17,9 +17,9 @@ def encrypt()->str:
     klartext = input("Enter the text you want to encrypt:")                     #Input text as string klartext= user enter text
     key = getKey()                                                              #Get key from function getKey
 
-    for char in klartext:                                                       #We find position of each character in the alphabet array | when char is "J" then alphabet_index is 9
+    for char in klartext:                                                       #We find position of each character in the alphabet array | when char is "J" then alphabet_index is 10
         alphabet_index = Alphabet.index(char)                                   #We add the key to the position of the character
-        newcharindex = alphabet_index + key                                     #alphabet_index + key = newcharindex || index for j = 9 +key(userinput) = newcharindex
+        newcharindex = alphabet_index + key                                     #alphabet_index + key = newcharindex || index for j = 10 +key(userinput) = newcharindex
 
         encryptedchar_index = newcharindex % len(Alphabet)                      #We use modulo to make sure we stay in the bounds of the alphabet array
         result += Alphabet[encryptedchar_index]                                 #We return the result += stands for result = result + Alphabet[encryptedchar_index]    
@@ -33,9 +33,9 @@ def decode()->str:
     encrypttext = input("Enter the text you want to decrypt:")
     key = getKey()
     
-    for char in encrypttext:                                                       #We find position of each character in the alphabet array | when char is "J" then alphabet_index is 9
+    for char in encrypttext:                                                    #We find position of each character in the alphabet array | when char is "J" then alphabet_index is 9
         alphabet_index = Alphabet.index(char)                                   #We add the key to the position of the character
-        newcharindex = alphabet_index - key                                     #alphabet_index + key = newcharindex || index for j = 9 +key(userinput) = newcharindex
+        newcharindex = alphabet_index - key                                     #alphabet_index - key = newcharindex || index for j = 10 -key(userinput) = newcharindex
 
         encryptedchar_index = newcharindex % len(Alphabet)                      #We use modulo to make sure we stay in the bounds of the alphabet array
         result += Alphabet[encryptedchar_index]                                 #We return the result += stands for result = result + Alphabet[encryptedchar_index]    
