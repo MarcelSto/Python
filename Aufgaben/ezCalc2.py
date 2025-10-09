@@ -20,7 +20,7 @@ def calc():
     result = None                                 #define variable result as None (to avoid errors) 
 
     if "+" in operation:
-        numpart = operation.split("+") #split the input at the operator | variable.split() function splits a string into a list where each word is a list item result[0] + result[1]
+        numpart = operation.split("+")                  #split the input at the operator | variable.split() function splits a string into a list where each word is a list item result[0] + result[1]
         result = float(numpart[0]) + float(numpart[1])  #set variable "result" to numpart[0]+numpart[1] | convert the string to float
     elif "-" in operation:
         numpart = operation.split("-")
