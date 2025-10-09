@@ -6,8 +6,8 @@ Alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 ###Function ask user for Key and return it as int
 def getKey()->int:                              
-    key = int(input("Enter the key: "))                             #Input key as string
-    return key
+    key = int(input("Enter the key: "))                                         #Input key as string and convert to int
+    return key                                                                  #return key as int
 
 
 
@@ -29,9 +29,19 @@ def encrypt()->str:
 
 ###Function to decrypt
 def decode()->str:
+    result = ""
     encrypttext = input("Enter the text you want to decrypt:")
-    key = int(input("Enter the key: "))
-    print("it is decryptet from " + encrypttext + " with key " + str(key))
+    key = getKey()
+    
+    for char in encrypttext:                                                       #We find position of each character in the alphabet array | when char is "J" then alphabet_index is 9
+        alphabet_index = Alphabet.index(char)                                   #We add the key to the position of the character
+        newcharindex = alphabet_index - key                                     #alphabet_index + key = newcharindex || index for j = 9 +key(userinput) = newcharindex
+
+        encryptedchar_index = newcharindex % len(Alphabet)                      #We use modulo to make sure we stay in the bounds of the alphabet array
+        result += Alphabet[encryptedchar_index]                                 #We return the result += stands for result = result + Alphabet[encryptedchar_index]    
+
+    return result
+
 
 
 
