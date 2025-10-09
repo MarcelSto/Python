@@ -7,11 +7,17 @@ Alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 
 
+
+
 ###Function to encrypt
 def encrypt()->str:
     klartext = input("Enter the text you want to encrypt:")
     key = int(input("Enter the key: "))
-    print("it is encrypted from " + klartext + " with key " + str(key))
+    for char in klartext:
+        print("\n" + char)
+        print(f'index position im Kunden-Text: {Alphabet.index(char)}')
+    return "it is encrypted from " + klartext + " with key " + str(key)
+
 
 ###Function to decrypt
 def decode()->str:
