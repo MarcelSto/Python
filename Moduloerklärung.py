@@ -1,9 +1,9 @@
 #Start modulo erklärung
 
 geld = 500
-marcel = 0
-ali = 0
-jo = 0
+marcel = None
+ali = None
+jo = None
 
 restgeld = geld % 3
 teilbaresgeld = geld - restgeld
