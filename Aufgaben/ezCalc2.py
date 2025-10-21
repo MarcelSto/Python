@@ -6,7 +6,7 @@ def again():
         if answer == "yes":
          calc() 
         elif answer == "no":                             
-            return "Goodbye!"
+            print("Goodbye!")
         else:                                               #catch all for invalid input
             print("Invalid Input, please try again")
             again()
