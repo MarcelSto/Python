@@ -8,5 +8,5 @@ while start <=5:
     start=start+1
     print("Izanami geht weiter")
     break
-print("Izanami Ende")
+print("Izanami Ende")        
 
