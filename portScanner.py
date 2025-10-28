@@ -1,5 +1,9 @@
+#Start - portscanner
+
 import socket
 import sys
+
+
 # host is ip address for example 214.15.18.4
 def check_port(host, port):
     mySocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -21,6 +25,8 @@ def check_port(host, port):
         mySocket.close()
 
 
+
+#Start Programm
 if __name__ == "__main__":
     
     hostIp = input("Please enter host ip address or domain (e.g., 4.2.2.4): ")
@@ -40,3 +46,8 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nOperation cancelled by user.")
         sys.exit()
+
+
+
+
+#Ende
