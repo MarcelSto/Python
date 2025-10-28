@@ -29,7 +29,6 @@ def scan_until_first_open(host: str, start: int = 1, end: int = 65535, timeout: 
 
 if __name__ == "__main__":
     host = input("Host (IP oder Domain, z.B. 127.0.0.1): ").strip()
-    print("Hinweis: Scanne nur Systeme, für die du Erlaubnis hast.")
     try:
         found = scan_until_first_open(host, start=1, end=65535, timeout=0.25)
         if found:
