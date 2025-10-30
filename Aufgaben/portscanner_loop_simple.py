@@ -36,7 +36,6 @@ def scan_until_open(host, start_port=1, end_port=65535, timeout=0.5):
 if __name__ == "__main__":
     try:
         host = input("Bitte Host (IP oder Domain, z.B. 127.0.0.1): ").strip()
-        print("Hinweis: scanne nur Hosts, für die du die Erlaubnis hast.")
         # Beispiel: stoppe beim ersten offenen Port (1..1024) — passe Bereich an
         first_open = scan_until_open(host, start_port=1, end_port=65535, timeout=0.3)
         if first_open is not None:
@@ -49,3 +48,6 @@ if __name__ == "__main__":
     except ValueError as ve:
         print(f"Fehler: {ve}")
         sys.exit(1)
+
+
+#Ende 
