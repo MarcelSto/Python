@@ -33,7 +33,7 @@ def stern(zeilen):
         print("*" * i)
         i = i + 1
 
-stern(5)
+#stern(5)
 
 def sterne(lines):
     i = 1
@@ -44,4 +44,22 @@ def sterne(lines):
             print("*" * i)
         i += 1
 
-sterne(6)
+#sterne(6)
+
+
+def triangle(linie):
+    dreieck = []
+    i = 1
+    while i <= linie:
+        zeile = "*" * i
+        dreieck.append(zeile)       #.append fügt werte einer liste hinzu dreick ist die liste .appenddie funktion zeile die variable die hinzugefügt wird 
+        i += 1
+    return dreieck
+
+
+
+# Beispiel:
+linien = triangle(10)           #linien = ["*","**", usw .....]
+linien.reverse()                #dreht die liste um 
+for zeilen in linien:
+    print(zeilen)
